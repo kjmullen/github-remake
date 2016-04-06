@@ -1,0 +1,168 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#alerts {
+    color:black;
+    font-size:20px;
+}
+
+#header {
+  position:fixed;
+  width:100%;
+  height: 42px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e5e5e5;
+}
+#header a {
+    color:black;
+}
+
+.container {
+  width:980px;
+  margin:auto;
+}
+
+
+
+#nav {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+#usercolumn{
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    width:25%;
+    clear: left;
+}
+#profileimage {
+    vertical-align: middle;
+    border-radius: 6px
+
+}
+
+#logo {
+  color:black;
+  font-size:35px;
+}
+h1 {
+    font-size:30px;
+    padding-top:20px;
+    text-align:left;
+}
+h2 {
+    font-size:20px;
+}
+
+
+li {
+    font-size: 14px;
+    padding-top: 5px;
+}
+i {
+    padding-right:10px;
+}
+#body {
+    font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #333;
+    background-color: #fff;
+    display:flex;
+}
+
+#content {
+    padding-top: 90px;
+}
+
+#userlocations{
+    padding-top: 25px;
+}
+
+#followers {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1;
+    color: #4078c0;
+    padding-top:8px;
+    display: flex;
+    width:20%;
+}
+#userfollows{
+    display:flex;
+    padding-top:20px;
+}
+#followers a {
+    text-decoration: none;
+    padding-right:25px;
+    text-align: center;
+}
+h5 {
+    font-size: 9px;
+    color: darkgrey;
+    text-align:center;
+}
+
+#repocontainer {
+    width:75%;
+    padding-left:20px;
+}
+#repolist {
+
+}
+
+#repolist li {
+    padding-top:30px;
+}
+
+#repolist a {
+    font-size:20px;
+    text-decoration:none;
+}
+
+#repolist p {
+    font-size:14px;
+    padding-top:10px;
+}
