@@ -46,15 +46,7 @@ $(document).ready(function() {
             }
         });
     }
-
-    // // function successRepo(resp) {
-    // //     resp.forEach(function(i){
-    // //         $("#repolist").append(`
-    // //         <li><a href="${i.html_url}">${i.name}</a></li>
-    // //         `)
-    // //     })
-    // // }
-    //
+    
     function successRepo(resp) {
         console.log('resp',resp);
         resp.forEach(function (item) {
@@ -80,23 +72,3 @@ $(document).ready(function() {
 
 });
 
-
-// arr.forEach(function(value, i, orig){
-//   console.log(i);
-//   console.log(orig);
-//   console.log(value);
-// });
-
-    //     dataType: "json",
-    //     success: function(result) {
-    //         for(var i in result ) {
-    //             $("#repo_list").append(
-    //                 "<li><a href='" + result[i].html_url + "' target='_blank'>" +
-    //                 result[i].name + "</a></li>"
-    //             );
-    //             console.log("i: " + i);
-    //         }
-    //         console.log(result);
-    //         $("#repo_count").append("Total Repos: " + result.length);
-    //     }
-    // })
