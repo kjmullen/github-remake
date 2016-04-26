@@ -79,10 +79,12 @@ table {
     width:25%;
     clear: left;
 }
-#profileimage {
+#profileimageborder img {
     vertical-align: middle;
-    border-radius: 6px
-
+    border-radius: 6px;
+    border: 1px solid transparent;
+    overflow: hidden;
+    line-height: 1;
 }
 
 #logo {
@@ -149,12 +151,11 @@ h5 {
     width:75%;
     padding-left:20px;
 }
-#repolist {
 
-}
 
 #repolist li {
     padding-top:30px;
+    border-bottom: 2px solid lightgrey;
 }
 
 #repolist a {
